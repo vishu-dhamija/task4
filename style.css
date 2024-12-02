@@ -1,0 +1,117 @@
+body{
+    color:aliceblue;
+    background: #343a40;
+    box-sizing: border-box;
+}
+
+#about{
+    background: #343a40 !important;
+    color: white;
+
+}
+
+.nav-link{
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    color: #ff214f !important;
+
+}
+.btn-primary{
+    background: #ff214f !important;
+    border-color: #ff214f !important;
+
+}
+
+.nav-link.active{
+    color: #ff214f !important;
+}
+.navbar .nav-link{
+    font-weight: 700;
+}
+.nav-item a{
+    color: white !important;
+}
+.navbar .nav-item.active{
+    color: #ff214f;
+}
+
+
+.navbar .brandtxt{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #ff214f;
+    opacity: 0;
+    visibility: hidden;
+    font-family: "oswald", "sans-serif";
+    transition: all 0.2s linear 0s;
+}
+
+.header {
+    position: relative;
+    height: 250px;
+    background: url('images/header-bg.jpg') no-repeat center center/cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+#carousel {
+    margin-top: 0.2rem; /* Space above the carousel */
+}
+
+.carousel-item img {
+    width: 100%; /* Ensure the image fits the container */
+    height: 600px; /* Adjust height as needed */
+    object-fit: cover; /* Cover the container without distortion */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 10px;
+    border-radius: 5px; /* Optional: rounded corners for captions */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Background color for controls */
+    border-radius: 50%; /* Optional: round controls */
+}
+
+/* Optional: Customize card styles */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Rounded corners for the card */
+    overflow: hidden; /* Ensure no overflow */
+}
+
+.card-img-top {
+    height: 200px; /* Set a fixed height for images */
+    object-fit: cover; /* Cover the card without distortion */
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.row {
+    margin: 0 -15px; /* Adjust spacing between columns */
+}
+
+.col-md-4 {
+    padding: 15px; /* Add padding to columns */
+}
+
+
+
+
+
